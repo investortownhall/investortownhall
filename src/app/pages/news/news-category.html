@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html data-ng-app="cronical">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>Chronicle</title>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+		<!-- Google Font -->
+		<link href='https://fonts.googleapis.com/css?family=Domine:400,700%7CMontserrat:400,700' rel='stylesheet' type='text/css'>
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="assets/css/bootstrap.css" />
+		<link rel="stylesheet" href="assets/css/owl.carousel.css" />
+		<link rel="stylesheet" href="assets/css/global.css" />
+		<!-- RS5.0 Main Stylesheet -->
+		<link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
+		<!-- RS5.0 Layers and Navigation Styles -->
+		<link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
+		<link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="stylesheet" href="assets/css/responsive.css" />
+		<link rel="stylesheet/less" href="assets/css/skin.less">
+	</head>
+	<body data-ng-controller = "cronicalCnt">
+		<div id="loading">
+			<div id="loading-center">
+				<div id="loading-center-absolute">
+					<div class="object" id="object_four"></div>
+					<div class="object" id="object_three"></div>
+					<div class="object" id="object_two"></div>
+					<div class="object" id="object_one"></div>
+
+				</div>
+			</div>
+
+		</div>
+		<!--Wrapper Start Here -->
+		<div class="blog-inner-page blog-category-page" id="wrapper">
+			<!--header Start Here -->
+			<header id="header" class="header">
+				<!-- primary header Start Here -->
+				<div class="primary-header clearfix">
+					<ul class="links pages-link">
+						<li>
+							<a href="index.html" class="home"><i class="fa fa-home"></i></a>
+						</li>
+						<li>
+							<a href="#">chronicle team</a>
+						</li>
+						<li>
+							<a href="#">partners</a>
+						</li>
+						<li>
+							<a href="#">our shop</a>
+						</li>
+					</ul>
+					<ul class="links social">
+						<li class="lang">
+							<select class="select">
+								<option value="">eng </option>
+								<option value="1">Ukrainian</option>
+								<option value="2">Russian</option>
+							</select>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-facebook"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-instagram"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-google-plus"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-rss"></i></a>
+						</li>
+					</ul>
+				</div>
+				<!-- primary header Ends Here -->
+				<!-- main header Starts Here -->
+				<div class="main-header">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="logo">
+									<a href="index.html"><img src="assets/images/logo.png" alt=""/></a>
+								</div>
+								<nav>
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+										<span class="sr-only">Toggle navigation</span><span class="icon-bar"> </span><span class="icon-bar"> </span><span class="icon-bar"> </span>
+									</button>
+									<ul class="nav navigation">
+										<li class="multi-level">
+											<a href="#">News</a>
+											<div class="multi-sub-menu">
+												<div class="categories-menu sub-menu-block">
+													<h3>Categories</h3>
+													<ul>
+														<li>
+															<a href="#"> <i class="fa fa-caret-right"></i> Men's clothes </a>
+														</li>
+														<li>
+															<a href="#"> <i class="fa fa-caret-right"></i> Women's clothes </a>
+														</li>
+														<li>
+															<a href="#"> <i class="fa fa-caret-right"></i> Single Product </a>
+														</li>
+														<li>
+															<a href="#"> <i class="fa fa-caret-right"></i> Your Cart </a>
+														</li>
+														<li>
+															<a href="#"> <i class="fa fa-caret-right"></i> Checkout </a>
+														</li>
+													</ul>
+												</div>
+												<div class="top-rated sub-menu-block">
+													<h3><span>TOP</span> Rated</h3>
+													<ul class="product-list">
+														<li class="clearfix">
+															<figure>
+																<img src="assets/images/multi-img-1.jpg" alt="" />
+															</figure>
+															<div class="product-description">
+																<a href="#" class="product-name">Woo Logo V2</a>
+																<span class="product-price">$8.00 </span>
+																<span class="rating clearfix"> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> </span>
+															</div>
+														</li>
+														<li class="clearfix">
+															<figure>
+																<img src="assets/images/multi-img-2.jpg" alt="" />
+															</figure>
+															<div class="product-description">
+																<a href="#" class="product-name">New Woo T-shirt</a>
+																<span class="product-price">$12.00 </span>
+																<span class="rating clearfix"> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> </span>
+															</div>
+														</li>
+													</ul>
+												</div>
+												<div class="on-sale sub-menu-block">
+													<h3>On Sale</h3>
+													<ul class="product-list">
+														<li class="clearfix">
+															<figure>
+																<img src="assets/images/multi-img-3.jpg" alt="" />
+															</figure>
+															<div class="product-description">
+																<a href="#" class="product-name">Ninja Silhouette</a>
+																<span class="product-price"><span class="cancel-price">$12.00</span>$8.00 </span>
+																<span class="rating clearfix"> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star-o"></i></a> <a href="#"><i class="fa fa-star-o"></i></a> <a href="#"><i class="fa fa-star-o"></i></a> </span>
+															</div>
+														</li>
+														<li class="clearfix">
+															<figure>
+																<img src="assets/images/multi-img-4.jpg" alt="" />
+															</figure>
+															<div class="product-description">
+																<a href="#" class="product-name">Ninja Silhouette</a>
+																<span class="product-price"><span class="cancel-price">$12.00</span>$12.00 </span>
+																<span class="rating clearfix"> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star-half-o"></i></a> <a href="#"><i class="fa fa-star-o"></i></a> </span>
+															</div>
+														</li>
+													</ul>
+												</div>
+												<div class="may-like sub-menu-block">
+													<h3>On Sale</h3>
+													<ul class="product-list">
+														<li class="clearfix">
+															<figure>
+																<img src="assets/images/multi-img-5.jpg" alt="" />
+															</figure>
+															<div class="product-description">
+																<a href="#" class="product-name">Ship Your Idea</a>
+																<span class="product-price">$30.00 </span>
+																<span class="rating clearfix"> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star-half-o"></i></a> <a href="#"><i class="fa fa-star-o"></i></a> </span>
+															</div>
+														</li>
+														<li class="clearfix">
+															<figure>
+																<img src="assets/images/multi-img-4.jpg" alt="" />
+															</figure>
+															<div class="product-description">
+																<a href="#" class="product-name">Ninja Silhouette</a>
+																<span class="product-price"><span class="cancel-price">$12.00</span>$12.00 </span>
+																<span class="rating clearfix"> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star-half-o"></i></a> <a href="#"><i class="fa fa-star-o"></i></a> </span>
+															</div>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li class="dropdown">
+											<a href="#">Politics</a>
+											<ul class="dropdown-list left">
+												<li>
+													<a href="#">Men's clothes</a>
+												</li>
+												<li class="second-dropdown">
+													<a href="#">Women's clothes<i>+</i></a>
+													<ul class="second-dropdown-menu">
+														<li>
+															<a href="#">Pellentesque</a>
+														</li>
+														<li>
+															<a href="#">Quisque males</a>
+														</li>
+														<li>
+															<a href="#">Metus eget</a>
+														</li>
+														<li>
+															<a href="#">Quisque libero</a>
+														</li>
+														<li>
+															<a href="#">Fusce felis</a>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<a href="#">Single Product<i>+</i></a>
+												</li>
+												<li>
+													<a href="#">Your Cart</a>
+												</li>
+												<li>
+													<a href="#">Checkout</a>
+												</li>
+											</ul>
+
+										</li>
+
+										<li>
+											<a href="#">Money</a>
+										</li>
+										<li>
+											<a href="#">History</a>
+										</li>
+										<li>
+											<a href="#">Culture</a>
+										</li>
+										<li>
+											<a href="#">Tech</a>
+										</li>
+										<li>
+											<a href="#">Life</a>
+										</li>
+										<li class="dropdown">
+											<a href="#">Pages</a>
+											<ul class="dropdown-list drop-menu">
+												<li>
+													<a href="index.html">Home-one</a>
+												</li>
+												<li>
+													<a href="homepage-two.html">Home-two</a>
+												</li>
+												<li>
+													<a href="homepage-three.html">Home-three</a>
+												</li>
+												<li>
+													<a href="homepage-four.html">Home-four</a>
+												</li>
+												<li>
+													<a href="blog-inner-page.html">Blog inside</a>
+												</li>
+												<li>
+													<a href="blog-category.html">Blog category</a>
+												</li>
+												<li>
+													<a href="author-blog-page.html">Autor blog</a>
+												</li>
+												<li>
+													<a href="special-projects.html">Special Project</a>
+												</li>
+												<li>
+													<a href="gallery.html">Gallery</a>
+												</li>
+												<li>
+													<a href="pop-up.html">Pop up</a>
+												</li>
+												<li>
+													<a href="partners.html">Partner</a>
+												</li>
+												<li>
+													<a href="shop-page-one.html">Shop-one</a>
+												</li>
+												<li>
+													<a href="shop-page-two.html">Shop-Two</a>
+												</li>
+												<li>
+													<a href="shop-page-three.html">Shop-Three</a>
+												</li>
+												<li>
+													<a href="shopping.html">Shopping</a>
+												</li>
+												<li>
+													<a href="checkout.html">Checkout</a>
+												</li>
+												<li>
+													<a href="coming-soon.html">Coming Soon</a>
+												</li>
+												<li>
+													<a href="typography-and-elements-page.html">Typography</a>
+												</li>
+												<li>
+													<a href="about-us.html">About us</a>
+												</li>
+												<li>
+													<a href="contact-us.html">Contact us</a>
+												</li>
+												<li>
+													<a href="forum-page.html">Forum Page</a>
+												</li>
+												<li>
+													<a href="404-page.html">404 page</a>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<span class="search-box"><i class="fa fa-search"></i></span>
+										</li>
+									</ul>
+								</nav>
+								<form class="search-here">
+									<input type="text" placeholder="Search" />
+									<button type="submit" value=""></button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- main header Ends Here -->
+			</header>
+			<!--header Ends Here -->
+			<!--banner starts Here -->
+			<div class="banner blog-inner-banner"></div>
+			<!--banner end Here -->
+		
+			<!--Section starts Here -->
+			<div id="content">
+				
+				<section class="blog-inner-description">
+					<div class="container">
+						<div class="row white">
+							<div class="post-block clearfix">
+								<h2 class="h2">All Posts From: Culture <span>(44)</span></h2>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="news-sec news-inner-page">
+					<div class="container">
+						<div class="row news-inner-wrapper news-item news-feed-section">
+							<div class="col-xs-12 col-sm-8">
+								<div class="row">
+									<div class="col-xs-12 col-sm-6">
+										<div class="filter-content check-now clearfix">
+											<div class="filter-item zoom">
+												<figure>
+													<a href="blog-inner-page.html"><img src="assets/images/news-feed-one.jpg" alt="image" /></a>
+												</figure>
+												<span class="star"><a href="#"><i class="fa fa-star"></i></a></span>
+												<div class="filter-item-text">
+													<h3 class="heading">culture</h3>
+													<h2>
+														<a class="sm-para" href="blog-inner-page.html"> Stocks fall slightly ahead of Friday's jobs  kin, was killed a little after report<span> « SP 500 Index Closing - One Year Before »</span> </a>
+													</h2>
+													<span class="date-one"><a href="#">August 3, 2015</a> <small><a href="#">6 <i class="fa fa-comments-o"></i></a></small></span>
+													<div class="design"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-6">
+										<div class="filter-content check-now clearfix">
+											<div class="filter-item zoom">
+												<figure>
+													<a href="blog-inner-page.html"><img src="assets/images/blog-category-one.jpg" alt="image" /></a>
+												</figure>
+												<span class="star"><a href="#"><i class="fa fa-star"></i></a></span>
+												<div class="filter-item-text">
+													<h3 class="heading">culture</h3>
+													<h2>
+														<a class="sm-para" href="blog-inner-page.html"> Recall costs dent U.S. arm of Fiat Chrysler.<span> « The sharp earnings decline is in line with the losses that FCA US's parent company »</span> </a>
+													</h2>
+													<span class="date-one"><a href="#">August 3, 2015</a> <small><a href="#">6 <i class="fa fa-comments-o"></i></a></small></span>
+													<div class="design"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-6">
+										<div class="filter-content check-now clearfix">
+											<div class="filter-item zoom">
+												<figure>
+													<a href="blog-inner-page.html"><img src="assets/images/blog-category-two.jpg" alt="image" /></a>
+												</figure>
+												<span class="star"><a href="#"><i class="fa fa-star"></i></a></span>
+												<div class="filter-item-text">
+													<h3 class="heading">culture</h3>
+													<h2>
+														<a class="sm-para" href="blog-inner-page.html"> For the Record: Poll dancing in our Bernie underwear Shooting at Colorado Springs<span> « Candidates Engage In Elaborate Poll Dance »</span> </a>
+													</h2>
+													<span class="date-one"><a href="#">August 3, 2015</a> <small><a href="#">6 <i class="fa fa-comments-o"></i></a></small></span>
+													<div class="design"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-6">
+										<div class="filter-content check-now clearfix">
+											<div class="filter-item zoom">
+												<figure>
+													<a href="blog-inner-page.html"><img src="assets/images/blog-category-three.jpg" alt="image" /></a>
+												</figure>
+												<span class="star"><a href="#"><i class="fa fa-star"></i></a></span>
+												<div class="filter-item-text">
+													<h3 class="heading">culture</h3>
+													<h2>
+														<a class="sm-para" href="blog-inner-page.html"> Kraft Heinz to shut 7 plants in U.S., Canada, lay off 2,600<span> « IOWA CITY — Kraft Heinz will close seven plants in the U.S. and Canada »</span> </a>
+													</h2>
+													<span class="date-one"><a href="#">August 3, 2015</a> <small><a href="#">6 <i class="fa fa-comments-o"></i></a></small></span>
+													<div class="design"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-6">
+										<div class="filter-content check-now clearfix">
+											<div class="filter-item zoom">
+												<figure>
+													<a href="blog-inner-page.html"><img src="assets/images/blog-category-four.jpg" alt="image" /></a>
+												</figure>
+												<span class="star"><a href="#"><i class="fa fa-star"></i></a></span>
+												<div class="filter-item-text">
+													<h3 class="heading">culture</h3>
+													<h2>
+														<a class="sm-para" href="blog-inner-page.html"> Knicks top Lakers to spoil Kobe Bryant's potential Shooting at Colorado Springs MSG finale<span> « NEW YORK (AP) »</span> </a>
+													</h2>
+													<span class="date-one"><a href="#">August 3, 2015</a> <small><a href="#">6 <i class="fa fa-comments-o"></i></a></small></span>
+													<div class="design"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-6">
+										<div class="filter-content check-now clearfix">
+											<div class="filter-item zoom">
+												<figure>
+													<a href="blog-inner-page.html"><img src="assets/images/blog-category-five.jpg" alt="image" /></a>
+												</figure>
+												<span class="star"><a href="#"><i class="fa fa-star"></i></a></span>
+												<div class="filter-item-text">
+													<h3 class="heading">culture</h3>
+													<h2>
+														<a class="sm-para" href="blog-inner-page.html"> Jimmie Johnson wins at Texas, denies dominant center under wear Brad Keselowski<span> « WINNER:  Jimmie Johnson »</span> </a>
+													</h2>
+													<span class="date-one"><a href="#">August 3, 2015</a> <small><a href="#">6 <i class="fa fa-comments-o"></i></a></small></span>
+													<div class="design"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-6">
+										<div class="filter-content check-now clearfix">
+											<div class="filter-item zoom">
+												<figure>
+													<a href="blog-inner-page.html"><img src="assets/images/blog-category-six.jpg" alt="image" /></a>
+												</figure>
+												<span class="star"><a href="#"><i class="fa fa-star"></i></a></span>
+												<div class="filter-item-text">
+													<h3 class="heading">culture</h3>
+													<h2>
+														<a class="sm-para" href="blog-inner-page.html"> Officials take center stage again, not because Shooting at Colorado Springs they're stars center<span> « LINCOLN, Neb. (AP) »</span> </a>
+													</h2>
+													<span class="date-one"><a href="#">August 3, 2015</a> <small><a href="#">6 <i class="fa fa-comments-o"></i></a></small></span>
+													<div class="design"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-6">
+										<div class="filter-content check-now clearfix">
+											<div class="filter-item zoom">
+												<figure>
+													<a href="blog-inner-page.html"><img src="assets/images/blog-category-seven.jpg" alt="image" /></a>
+												</figure>
+												<span class="star"><a href="#"><i class="fa fa-star"></i></a></span>
+												<div class="filter-item-text">
+													<h3 class="heading">culture</h3>
+													<h2>
+														<a class="sm-para" href="blog-inner-page.html"> Johnson passes Keselowski late to win 3rd straight Shooting at Colorado Springs at Texas<span> « FORT WORTH, Texas »</span> </a>
+													</h2>
+													<span class="date-one"><a href="#">August 3, 2015</a> <small><a href="#">6 <i class="fa fa-comments-o"></i></a></small></span>
+													<div class="design"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-12">
+										<div class="load-wrap">
+											<a href="#">Load more news</a>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-4">
+								<div class="aside-sec-wrap">
+									<div class="aside-sec">
+										<figure>
+											<img src="assets/images/sidebar-thumb1.png" alt="">
+										</figure>
+										<div class="live-news-feed-wrap">
+											<div class="span-wrapper">
+												<span><strong>5 November 2015 - 12:07</strong></span>
+												<span class="live-news">Live News Feed</span>
+											</div>
+										</div>
+									</div>
+									<ul>
+										<li>
+											<a href="#"><strong>12:18</strong>When can you expect your first snowfall of the season?</a>
+										</li>
+										<li>
+											<a href="#"><strong>12:04</strong>Waist trainers strangle organs, doctors warn</a>
+										</li>
+										<li>
+											<a href="#"><strong>11:46</strong>Ozzy Osbourne to apologize for urinating on the Alamo in 1982</a>
+										</li>
+										<li>
+											<a href="#"><strong>10:56 </strong>More than a decade after release, they all come back</a>
+										</li>
+										<li>
+											<a href="#"><strong>10:12 </strong>Bengals improve to 8-0 with 31-10 rout of Browns</a>
+										</li>
+										<li>
+											<a href="#"><strong>08:22</strong>Sequoia National Park: Seeing the forest for the trees</a>
+										</li>
+										<li>
+											<a href="#"><strong>08:13</strong>Gwen Stefani and Blake Shelton hold hands, write country song</a>
+										</li>
+									</ul>
+								</div>
+								<div class="most-popular-block">
+									<h2>Most Popular</h2>
+									<ul class="most-popular">
+										<li class="most-popular-bg-one">
+											<div class="most-popular-wrapper"><span>01</span> <h3><a href="#">Giant sinkhole swallows cars in IHOP parking lot</a></h3></div>
+										</li>
+										<li class="most-popular-bg-two">
+											<div class="most-popular-wrapper"><span>02</span> <h3><a href="#">Mysterious light in night sky sends Californians into tizzy</a></h3></div>
+										</li>
+										<li class="most-popular-bg-three">
+											<div class="most-popular-wrapper"><span>03</span> <h3><a href="#">Guess who heckled Trump on 'Saturday Night Live'?</a></h3></div>
+										</li>
+										<li class="most-popular-bg-four">
+											<div class="most-popular-wrapper"><span>04</span> <h3><a href="#">Giant sinkhole swallows cars in IHOP parking lot</a></h3></div>
+										</li>
+									</ul>
+								</div>
+								<div class="aside-stay-update">
+									<h2>Stay Updated</h2>
+									<span>Sign up for our newsletter to receive the latest news and event postings.</span>
+									<form novalidate="" name="signup">
+										
+										<input type="text" class="email" id="email" name="email" placeholder="YOUR EMAIL ADDRESS" data-ng-model = "contactdata.email" data-ng-pattern = "/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/" required data-ng-class = "{'error':signup.email.$invalid && submit}" />
+										<button class="sub" type="button" value="" data-ng-click = "userRegister(signup.$valid)"></button>
+									</form>
+									<p class="showsuccess">
+										SuccessFull SignUp
+									</p>
+								</div>
+								<div class="popular-tag">
+									<h2>Popular Tags</h2>
+									<ul class="popular-tag-links">
+										<li>
+											<a href="#">Life <span>(215)</span></a>
+										</li>
+										<li>
+											<a href="#">Discussion <span>(48)</span></a>
+										</li>
+										<li>
+											<a href="#">Art <span>(12)</span></a>
+										</li>
+										<li>
+											<a href="#">Politics <span>(316)</span></a>
+										</li>
+										<li>
+											<a href="#">Opinion <span>(12)</span></a>
+										</li>
+										<li>
+											<a href="#">US <span>(8)</span></a>
+										</li>
+										<li>
+											<a href="#">Travel <span>(12)</span></a>
+										</li>
+										<li>
+											<a href="#">Money <span>(136)</span></a>
+										</li>
+										<li>
+											<a href="#">Tech <span>(4)</span></a>
+										</li>
+										<li>
+											<a href="#">Elections <span>(48)</span></a>
+										</li>
+										<li>
+											<a href="#">Video <span>(186)</span></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+				<!-- Stay Updated Ends Here -->
+			</div>
+			
+			<!--Section ends Here -->
+			<!-- Footer Starts Here -->
+			<footer>
+				<!--Section box starts Here -->
+				<div class="footer">
+					<div class="chronical-instagram">
+						<div class="chronical-instagram-head">
+							<h3>Chronicle Instagram</h3>
+							<span class="our-instagram"> <a href="#">view our instagram</a> </span>
+						</div>
+						<div class="instagram-images">
+							<ul class="clearfix">
+								<li>
+									<div class="people">
+										<img src="assets/images/instagram-img1.jpg" alt="" />
+										<div class="people-text">
+											<div class="people-wrap">
+												<div class="people-text-wrap">
+													<a href="#" class="likes">41.6k <i class="fa fa-heart-o"></i></a>
+													<a href="#" class="comments">332 <i class="fa fa-comments-o"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="people">
+										<img src="assets/images/instagram-img2.jpg" alt="" />
+										<div class="people-text">
+											<div class="people-wrap">
+												<div class="people-text-wrap">
+													<a href="#" class="likes">41.6k <i class="fa fa-heart-o"></i></a>
+													<a href="#" class="comments">332 <i class="fa fa-comments-o"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="people">
+										<img src="assets/images/instagram-img3.jpg" alt="" />
+										<div class="people-text">
+											<div class="people-wrap">
+												<div class="people-text-wrap">
+													<a href="#" class="likes">41.6k <i class="fa fa-heart-o"></i></a>
+													<a href="#" class="comments">332 <i class="fa fa-comments-o"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="people">
+										<img src="assets/images/instagram-img4.jpg" alt="" />
+										<div class="people-text">
+											<div class="people-wrap">
+												<div class="people-text-wrap">
+													<a href="#" class="likes">41.6k <i class="fa fa-heart-o"></i></a>
+													<a href="#" class="comments">332 <i class="fa fa-comments-o"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="people">
+										<img src="assets/images/instagram-img5.jpg" alt="" />
+										<div class="people-text">
+											<div class="people-wrap">
+												<div class="people-text-wrap">
+													<a href="#" class="likes">41.6k <i class="fa fa-heart-o"></i></a>
+													<a href="#" class="comments">332 <i class="fa fa-comments-o"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="people">
+										<img src="assets/images/instagram-img6.jpg" alt="" />
+										<div class="people-text">
+											<div class="people-wrap">
+												<div class="people-text-wrap">
+													<a href="#" class="likes">41.6k <i class="fa fa-heart-o"></i></a>
+													<a href="#" class="comments">332 <i class="fa fa-comments-o"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="important-links">
+							<div class="container">
+								<div class="row">
+									<div class="col-xs-12 col-sm-4">
+										<div class="about-chronical">
+											<div class="footer-logo">
+												<a href="index.html"><img src="assets/images/logo-footer.png" alt="" /></a>
+											</div>
+											<p>
+												All materials must be used with the permission of the right holder and link of the resource.
+											</p>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-2">
+										<div class="information important-links-list">
+											<h4>information</h4>
+											<ul>
+												<li>
+													<a href="#">about us</a>
+												</li>
+												<li>
+													<a href="#">editorial policy</a>
+												</li>
+												<li>
+													<a href="#">Press Releases</a>
+												</li>
+												<li>
+													<a href="#">Advertise</a>
+												</li>
+												<li>
+													<a href="#">Internships</a>
+												</li>
+												<li>
+													<a href="#">Correspondents</a>
+												</li>
+												<li>
+													<a href="#">Chronicle Terms</a>
+												</li>
+												<li>
+													<a href="#">Ad Choices</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-2">
+										<div class="partners important-links-list">
+											<h4>partners</h4>
+											<ul>
+												<li>
+													<a href="#">NewRoad</a>
+												</li>
+												<li>
+													<a href="#">Owl</a>
+												</li>
+												<li>
+													<a href="#">AGE News</a>
+												</li>
+												<li>
+													<a href="#">Liberty</a>
+												</li>
+												<li>
+													<a href="#">Hey Dude</a>
+												</li>
+												<li>
+													<a href="#">Taurus</a>
+												</li>
+												<li>
+													<a href="#">Bird</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-2">
+										<div class="categories important-links-list">
+											<h4>categories</h4>
+											<ul>
+												<li>
+													<a href="#">News</a>
+												</li>
+												<li>
+													<a href="#">Politics</a>
+												</li>
+												<li>
+													<a href="#">Money</a>
+												</li>
+												<li>
+													<a href="#">History</a>
+												</li>
+												<li>
+													<a href="#">Culture</a>
+												</li>
+												<li>
+													<a href="#">Tech</a>
+												</li>
+												<li>
+													<a href="#">Life</a>
+												</li>
+												<li>
+													<a href="#">Opinion</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-2">
+										<div class="stay-with important-links-list">
+											<h4>stay with us</h4>
+											<ul>
+												<li>
+													<a href="#">Contact Us</a>
+												</li>
+												<li>
+													<a href="#">Get Home Delivery</a>
+												</li>
+												<li>
+													<a href="#">My Subscriptions</a>
+												</li>
+												<li>
+													<a href="#">Newsletters &amp; Alerts</a>
+												</li>
+												<li>
+													<a href="#">Get the e-Newsletter</a>
+												</li>
+												<li>
+													<a href="#">Our Shop</a>
+												</li>
+												<li>
+													<a href="#">Permissions</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="footer-sticker">
+							<div class="container">
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="sticker">
+											<div class="sticker-content">
+												<img alt="" src="assets/images/sticker-2.jpg">
+												<div class="sticker-text">
+													<small class="big-num">970</small>
+													<img alt="" src="assets/images/logo-medium.png">
+													<small class="small-num">90</small>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="company-links">
+							<div class="container">
+								<div class="row">
+									<ul class="clearfix">
+										<li>
+											<a href="#"><img src="assets/images/worker.png" alt="" /></a>
+										</li>
+										<li>
+											<a href="#"><img src="assets/images/ntimes.png" alt="" /></a>
+										</li>
+										<li>
+											<a href="#"><img src="assets/images/villa.png" alt="" /></a>
+										</li>
+										<li>
+											<a href="#"><img src="assets/images/usn.png" alt="" /></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Section box ends Here -->
+			</footer>
+			<!-- Footer Ends Here -->
+		</div>
+		<!--banner ends Here -->
+		<!--Wrapper Ends Here -->
+		<script type="text/javascript" src="assets/js/jquery-1.12.2.min.js"></script>
+		<script src="assets/js/less.js"></script>
+		<script type="text/javascript" src="assets/js/angular-1.4.7.min.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.countdown.js"></script>
+		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js"></script>
+
+		<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+		<script type="text/javascript" src="assets/js/less.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.selectbox-0.2.min.js"></script>
+		<script type="text/javascript" src="assets/js/owl.carousel.js"></script>
+		<script type="text/javascript" src="assets/js/angular.js"></script>
+		<script type="text/javascript" src="assets/js/site.js"></script>
+	
+	</body>
+</html>

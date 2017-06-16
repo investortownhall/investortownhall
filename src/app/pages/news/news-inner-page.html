@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+<html data-ng-app = "cronical">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>Chronicle</title>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+		<!-- Google Font -->
+		<link href='https://fonts.googleapis.com/css?family=Domine:400,700%7CMontserrat:400,700' rel='stylesheet' type='text/css' />
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="assets/css/bootstrap.css" />
+		<link rel="stylesheet" href="assets/css/owl.carousel.css" />
+		<link rel="stylesheet" href="assets/css/global.css" />
+		<!-- RS5.0 Main Stylesheet -->
+		<link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
+		<!-- RS5.0 Layers and Navigation Styles -->
+		<link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
+		<link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="stylesheet" href="assets/css/responsive.css" />
+		<link rel="stylesheet/less" href="assets/css/skin.less">
+	</head>
+	<body data-ng-controller = "cronicalCnt">
+		<!--Loader Start-->
+		<div id="loading">
+			<div id="loading-center">
+				<div id="loading-center-absolute">
+					<div class="object" id="object_four"></div>
+					<div class="object" id="object_three"></div>
+					<div class="object" id="object_two"></div>
+					<div class="object" id="object_one"></div>
+
+				</div>
+			</div>
+
+		</div>
+		<!--Loader End-->
+		<!--Wrapper Start Here -->
+		<div class="blog-inner-page" id="wrapper">
+			<!--header Start Here -->
+			<header id="header" class="header">
+				<!-- primary header Start Here -->
+				<div class="primary-header clearfix">
+					<ul class="links pages-link">
+						<li>
+							<a href="index.html" class="home"><i class="fa fa-home"></i></a>
+						</li>
+						<li>
+							<a href="#">chronicle team</a>
+						</li>
+						<li>
+							<a href="#">partners</a>
+						</li>
+						<li>
+							<a href="#">our shop</a>
+						</li>
+					</ul>
+					<ul class="links social">
+						<li class="lang">
+							<select class="select">
+								<option value="">eng </option>
+								<option value="1">Ukrainian</option>
+								<option value="2">Russian</option>							
+							</select>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-facebook"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-instagram"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-google-plus"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-rss"></i></a>
+						</li>
+					</ul>
+				</div>
+				<!-- primary header Ends Here -->
+				<!-- main header Starts Here -->
+				<div class="main-header">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="logo">
+									<a href="index.html"><img src="assets/images/logo.png" alt=""/></a>
+								</div>
+								<nav>
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+										<span class="sr-only">Toggle navigation</span><span class="icon-bar"> </span><span class="icon-bar"> </span><span class="icon-bar"> </span>
+									</button>
+									<ul class="nav navigation">
+										<li class="multi-level">
+											<a href="#">News</a>
+											<div class="multi-sub-menu">
+												<div class="categories-menu sub-menu-block">
+													<h3>Categories</h3>
+													<ul>
+														<li>
+															<a href="#"> <i class="fa fa-caret-right"></i> Men's clothes </a>
+														</li>
+														<li>
+															<a href="#"> <i class="fa fa-caret-right"></i> Women's clothes </a>
+														</li>
+														<li>
+															<a href="#"> <i class="fa fa-caret-right"></i> Single Product </a>
+														</li>
+														<li>
+															<a href="#"> <i class="fa fa-caret-right"></i> Your Cart </a>
+														</li>
+														<li>
+															<a href="#"> <i class="fa fa-caret-right"></i> Checkout </a>
+														</li>
+													</ul>
+												</div>
+												<div class="top-rated sub-menu-block">
+													<h3><span>TOP</span> Rated</h3>
+													<ul class="product-list">
+														<li class="clearfix">
+															<figure>
+																<img src="assets/images/multi-img-1.jpg" alt="" />
+															</figure>
+															<div class="product-description">
+																<a href="#" class="product-name">Woo Logo V2</a>
+																<span class="product-price">$8.00 </span>
+																<span class="rating clearfix"> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> </span>
+															</div>
+														</li>
+														<li class="clearfix">
+															<figure>
+																<img src="assets/images/multi-img-2.jpg" alt="" />
+															</figure>
+															<div class="product-description">
+																<a href="#" class="product-name">New Woo T-shirt</a>
+																<span class="product-price">$12.00 </span>
+																<span class="rating clearfix"> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> </span>
+															</div>
+														</li>
+													</ul>
+												</div>
+												<div class="on-sale sub-menu-block">
+													<h3>On Sale</h3>
+													<ul class="product-list">
+														<li class="clearfix">
+															<figure>
+																<img src="assets/images/multi-img-3.jpg" alt="" />
+															</figure>
+															<div class="product-description">
+																<a href="#" class="product-name">Ninja Silhouette</a>
+																<span class="product-price"><span class="cancel-price">$12.00</span>$8.00 </span>
+																<span class="rating clearfix"> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star-o"></i></a> <a href="#"><i class="fa fa-star-o"></i></a> <a href="#"><i class="fa fa-star-o"></i></a> </span>
+															</div>
+														</li>
+														<li class="clearfix">
+															<figure>
+																<img src="assets/images/multi-img-4.jpg" alt="" />
+															</figure>
+															<div class="product-description">
+																<a href="#" class="product-name">Ninja Silhouette</a>
+																<span class="product-price"><span class="cancel-price">$12.00</span>$12.00 </span>
+																<span class="rating clearfix"> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star-half-o"></i></a> <a href="#"><i class="fa fa-star-o"></i></a> </span>
+															</div>
+														</li>
+													</ul>
+												</div>
+												<div class="may-like sub-menu-block">
+													<h3>On Sale</h3>
+													<ul class="product-list">
+														<li class="clearfix">
+															<figure>
+																<img src="assets/images/multi-img-5.jpg" alt="" />
+															</figure>
+															<div class="product-description">
+																<a href="#" class="product-name">Ship Your Idea</a>
+																<span class="product-price">$30.00 </span>
+																<span class="rating clearfix"> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star-half-o"></i></a> <a href="#"><i class="fa fa-star-o"></i></a> </span>
+															</div>
+														</li>
+														<li class="clearfix">
+															<figure>
+																<img src="assets/images/multi-img-4.jpg" alt="" />
+															</figure>
+															<div class="product-description">
+																<a href="#" class="product-name">Ninja Silhouette</a>
+																<span class="product-price"><span class="cancel-price">$12.00</span>$12.00 </span>
+																<span class="rating clearfix"> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star"></i></a> <a href="#"><i class="fa fa-star-half-o"></i></a> <a href="#"><i class="fa fa-star-o"></i></a> </span>
+															</div>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</li>
+																				<li class="dropdown">
+											<a href="#">Politics</a>
+											<ul class="dropdown-list left">
+												<li>
+													<a href="#">Men's clothes</a>
+												</li>
+												<li class="second-dropdown">
+													<a href="#">Women's clothes<i>+</i></a>
+													<ul class="second-dropdown-menu">
+														<li>
+															<a href="#">Pellentesque</a>
+														</li>
+														<li>
+															<a href="#">Quisque males</a>
+														</li>
+														<li>
+															<a href="#">Metus eget</a>
+														</li>
+														<li>
+															<a href="#">Quisque libero</a>
+														</li>
+														<li>
+															<a href="#">Fusce felis</a>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<a href="#">Single Product<i>+</i></a>
+												</li>
+												<li>
+													<a href="#">Your Cart</a>
+												</li>
+												<li>
+													<a href="#">Checkout</a>
+												</li>
+											</ul>
+
+										</li>
+
+										<li>
+											<a href="#">Money</a>
+										</li>
+										<li>
+											<a href="#">History</a>
+										</li>
+										<li>
+											<a href="#">Culture</a>
+										</li>
+										<li>
+											<a href="#">Tech</a>
+										</li>
+										<li>
+											<a href="#">Life</a>
+										</li>
+										<li class="dropdown">
+											<a href="#">Pages</a>
+											<ul class="dropdown-list drop-menu">
+												<li>
+													<a href="index.html">Home-one</a>
+												</li>
+												<li>
+													<a href="homepage-two.html">Home-two</a>
+												</li>
+												<li>
+													<a href="homepage-three.html">Home-three</a>
+												</li>
+												<li>
+													<a href="homepage-four.html">Home-four</a>
+												</li>
+												<li>
+													<a href="blog-inner-page.html">Blog inside</a>
+												</li>
+												<li>
+													<a href="blog-category.html">Blog category</a>
+												</li>
+												<li>
+													<a href="author-blog-page.html">Autor blog</a>
+												</li>
+												<li>
+													<a href="special-projects.html">Special Project</a>
+												</li>
+												<li>
+													<a href="gallery.html">Gallery</a>
+												</li>
+												<li>
+													<a href="pop-up.html">pop up</a>
+												</li>
+												<li>
+													<a href="partners.html">Partner</a>
+												</li>
+												<li>
+													<a href="shop-page-one.html">Shop-one</a>
+												</li>
+												<li>
+													<a href="shop-page-two.html">Shop-Two</a>
+												</li>
+												<li>
+													<a href="shop-page-three.html">Shop-Three</a>
+												</li>
+												<li>
+													<a href="shopping.html">Shopping</a>
+												</li>
+												<li>
+													<a href="checkout.html">Checkout</a>
+												</li>
+												<li>
+													<a href="coming-soon.html">Coming Soon</a>
+												</li>
+												<li>
+													<a href="typography-and-elements-page.html">Typography</a>
+												</li>
+
+												<li>
+													<a href="about-us.html">About us</a>
+												</li>
+												<li>
+													<a href="contact-us.html">Contact us</a>
+												</li>
+												<li>
+													<a href="forum-page.html">Forum Page</a>
+												</li>
+												<li>
+													<a href="404-page.html">404 page</a>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<span class="search-box"><i class="fa fa-search"></i></span>
+										</li>
+									</ul>
+								</nav>
+								<form class="search-here">
+									<input type="text" placeholder="Search" />
+									<button type="submit" value=""></button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- main header Ends Here -->
+			</header>
+			<!--header Ends Here -->
+			<!--banner starts Here -->
+			<div class="banner blog-inner-banner"></div>
+			<!--banner end Here -->
+
+		
+
+			<!--Section starts Here -->
+			<div id="content">
+				
+
+				<div class="blog-inner-description">
+					<div class="container">
+						<div class="row white">
+							<div class="social-feed-back clearfix">
+								<ul class="social-feedback-link clearfix">
+									<li>
+										<a href="#"><i class="fa fa-facebook"> </i> 124 </a>
+									</li>
+									<li>
+										<a href="#"><i class="fa fa-twitter"> </i> 18 </a>
+									</li>
+									<li>
+										<a href="#"><i class="fa fa-google-plus"> </i> 42 </a>
+									</li>
+								</ul>
+								<span class="right-section"> <span class="chev-one"><i class="fa fa-chevron-left"> </i> </span> <span class="chev-two"><i class="fa fa-chevron-right"> </i> </span> </span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<section class="news-sec news-inner-page">
+					<div class="container">
+						<div class="row news-inner-wrapper">
+							<div class="col-xs-12 col-sm-8">
+								<div class="news-blog news-banner-one">
+									<div class="news-blog-fig">
+										<img alt="" src="assets/images/lg-1.jpg">
+										<a href="#" class="compress-option"><i class="fa fa-compress"></i></a>
+									</div>
+								</div>
+								
+									<div class="profile-icon-wrapper">
+										<div class="profile-icon">
+											<figure>
+												<a href=""><img src="assets/images/bloggwer-img-one.png" alt="abc" /></a>
+											</figure>
+											<h3><a href="">Harry Lison</a></h3>
+										</div>
+										<div class="share">
+											<span class="share-head"> <small><i class="fa fa-retweet"></i></small> <strong>share</strong> </span>
+											<ul class="clearfix">
+												<li>
+													<a href="#"> <i class="fa fa-facebook"></i> </a>
+												</li>
+												<li>
+													<a href="#"> <i class="fa fa-twitter"></i> </a>
+												</li>
+												<li>
+													<a href="#"> <i class="fa fa-google-plus"></i> </a>
+												</li>
+												<li>
+													<a href="#"><i class="fa fa-linkedin"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="fa fa-pinterest-p"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="fa fa-envelope"></i></a>
+												</li>
+											</ul>
+										</div>
+										<figure class="aside-long-img">
+											<img src="assets/images/aside-long-img.jpg" alt="#">
+											<span class="long-img-size">120 x 600</span>
+										</figure>
+									</div>
+									<div class="profile-content">
+										<h3 class="heading">culture</h3>
+										<h2>Deutsche Bank hit with $258M penalty for sanctions violations</h2>
+										<div class="profile-inner-wrapper clearfix">
+											<div class="one-part">
+												<p>
+													Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula,
+													eget egestas libero turpis vel mi. Nunc nulla. Fusce risus nisl, viverra
+													et, tempor et, pretium in,
+												</p>
+											</div>
+											<p>
+												Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula,
+												eget egestas libero turpis vel mi. Nunc nulla. Fusce risus nisl, viverra et,
+												tempor et, pretium in, sapien. Donec venenatis vulputate lorem. Morbi nec metus.
+												Phasellus <strong>blandit leo</strong> ut odio. Maecenas ullamcorper, dui et placerat feugiat,
+												eros pede varius nisi, condimentum viverra felis nunc et lorem. Magna purus.
+												Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, eget egestas libero turpis vel mi. Nunc nulla. Fusce risus nisl, viverra et, tempor et, pretium in, sapien. <em>Donec venenatis vulputate lorem</em>. Morbi nec metus. Phasellus blandit leo ut odio. Maecenas ullamcorper, dui et placerat feugiat, eros pede varius nisi, imentum viverra felis nunc et lorem. Sed magna purus, fermentum eu, tincidunt eu.
+											</p>
+										</div>
+										<div class="profile-sub-content">
+											<h2>Others Hope For Breakthroughs</h2>
+											<div class="prfile-sub-content-wrapper">
+												<figure>
+													<img src="assets/images/sub-img1.png" alt="#">
+												</figure>
+												<p>
+													Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula,
+													eget egestas libero turpis vel mi. Nunc nulla. Fusce risus nisl, viverra et,
+													tempor et, pretium in, sapien. Donec venenatis vulputate lorem. Morbi nec metus.
+													Phasellus blandit leo ut odio. Maecenas <a href="#">ullamcorper</a>, dui et placerat feugiat,
+													eros pede varius nisi, condimentum viverra felis nunc et lorem. Sed magna purus,
+													fermentum eu, tincidunt eu, varius Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna. Vestibulum ullamcorper mauris at ligula. Fusce fermentum. Nullam cursus lacinia erat. Praesent blandit laoreet nibh. Fusce convallis metus id felis luctus adipiscing. Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Quisque id mi. Ut tincidunt tincidunt erat.
+												</p>
+											</div>
+										</div>
+										<div class="author">
+											<div class="yellow-cls">
+												<span><i class="fa fa-quote-right"></i></span>
+											</div>
+											<p>
+												Etiam feugiat lorem non metus. Vestibulum dapibus nunc ac augue.
+												Curabitur vestibulum aliquam leo. Praesent egestas neque eu enim.
+												In hac habitasse platea dictumst. Fusce a quam. Etiam ut purus mattis mauris sodales aliquam.
+												Curabitur nisi. Quisque malesuada placerat nisl. Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel,
+												lacus.
+											</p>
+										</div>
+										<p>
+											Fusce a quam. Etiam ut purus mattis mauris sodales aliquam.
+											Curabitur nisi. Quisque malesuada placerat nisl. Nam ipsum risus,
+											rutrum vitae, vestibulum eu, molestie vel, lacus. Sed augue ipsum,
+											egestas nec, vestibulum et, malesuada adipiscing, dui. Vestibulum facilisis,
+											purus nec pulvinar iaculis, ligula mi congue nunc, vitae euismod ligula urna in dolor.
+											Mauris sollicitudin fermentum libero.
+										</p>
+										<p>
+											Praesent nonummy mi in odio. Nunc interdum lacus sit amet orci.
+											Vestibulum rutrum, mi nec elementum vehicula, eros quam gravida nisl,
+											id fringilla neque ante vel mi. Morbi mollis tellus ac sapien. Phasellus
+											volutpat, metus eget egestas mollis, lacus lacus blandit dui, id egestas
+											quam mauris ut lacus. Fusce vel dui. Sed in libero ut nibh placerat accumsan.
+											Proin faucibus arcu quis ante.
+										</p>
+										<p>
+											In consectetuer turpis ut velit. Nulla sit amet est. Praesent metus tellus,
+											elementum eu, semper a, adipiscing nec, purus. Cras risus ipsum, faucibus ut,
+											ullamcorper id, varius ac, leo. Suspendisse feugiat. Suspendisse enim turpis,
+											dictum sed, iaculis a,
+											condimentum nec, nisi. Praesent nec nisl a purus blandit viverra.
+										</p>
+										<div class="profile-info-block">
+											<span class="profile-info-text"><a href="#">August 3, 2015</a><small><a href="#"> 6 <i class="fa fa-comments-o"></i></a></small></span>
+											<span class="profile-info-text">Life, Opinion, Elections <i class="fa fa-thumb-tack"></i></span>
+											<span class="profile-info-text">1568 <i class="fa fa-eye"></i></span>
+										</div>
+									</div>
+								
+							</div>
+							<div class="col-xs-12 col-sm-4">
+								<div class="aside-sec-wrap">
+									<div class="aside-sec">
+										<figure>
+											<img src="assets/images/sidebar-thumb1.png" alt="">
+										</figure>
+										<div class="live-news-feed-wrap">
+											<div class="span-wrapper">
+												<span><strong>5 November 2015 - 12:07</strong></span>
+												<span class="live-news">Live News Feed</span>
+											</div>
+										</div>
+									</div>
+									<ul>
+										<li>
+											<a href="#"><strong>12:18</strong>When can you expect your first snowfall of the season?</a>
+										</li>
+										<li>
+											<a href="#"><strong>12:04</strong>Waist trainers strangle organs, doctors warn</a>
+										</li>
+										<li>
+											<a href="#"><strong>11:46</strong>Ozzy Osbourne to apologize for urinating on the Alamo in 1982</a>
+										</li>
+										<li>
+											<a href="#"><strong>10:56 </strong>More than a decade after release, they all come back</a>
+										</li>
+										<li>
+											<a href="#"><strong>10:12 </strong>Bengals improve to 8-0 with 31-10 rout of Browns</a>
+										</li>
+										<li>
+											<a href="#"><strong>08:22</strong>Sequoia National Park: Seeing the forest for the trees</a>
+										</li>
+										<li>
+											<a href="#"><strong>08:13</strong>Gwen Stefani and Blake Shelton hold hands, write country song</a>
+										</li>
+									</ul>
+								</div>
+								<div class="most-popular-block">
+									<h2>Most Popular</h2>
+									<ul class="most-popular">
+										<li class="most-popular-bg-one">
+											<div class="most-popular-wrapper"><span>01</span> <h3><a href="#">Giant sinkhole swallows cars in IHOP parking lot</a></h3></div>
+										</li>
+										<li class="most-popular-bg-two">
+											<div class="most-popular-wrapper"><span>02</span> <h3><a href="#">Mysterious light in night sky sends Californians into tizzy</a></h3></div>
+										</li>
+										<li class="most-popular-bg-three">
+											<div class="most-popular-wrapper"><span>03</span> <h3><a href="#">Guess who heckled Trump on 'Saturday Night Live'?</a></h3></div>
+										</li>
+										<li class="most-popular-bg-four">
+											<div class="most-popular-wrapper"><span>04</span> <h3><a href="#">Giant sinkhole swallows cars in IHOP parking lot</a></h3></div>
+										</li>
+									</ul>
+								</div>
+								<div class="aside-stay-update">
+									<h2>Stay Updated</h2>
+									<span>Sign up for our newsletter to receive the latest news and event postings.</span>
+									<form name="stayupdate" novalidate="">
+										<!--<input class="email" type="text" id="email" placeholder="YOUR EMAIL" />-->
+										<input type="text" class="email" id="email" name="email" placeholder="YOUR EMAIL" data-ng-model = "contactdata.uemail" data-ng-pattern = "/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/" required data-ng-class = "{'error':stayupdate.email.$invalid && submit}" />
+										<button class="sub" type="submit" value="" data-ng-click = "userRegister(stayupdate.$valid)"></button>
+									</form>
+									<p class="showsuccess">
+										SuccessFull SignUp
+									</p>
+								</div>
+								<div class="popular-tag">
+									<h2>Popular Tags</h2>
+									<ul class="popular-tag-links">
+										<li>
+											<a href="#">Life <span>(215)</span></a>
+										</li>
+										<li>
+											<a href="#">Discussion <span>(48)</span></a>
+										</li>
+										<li>
+											<a href="#">Art <span>(12)</span></a>
+										</li>
+										<li>
+											<a href="#">Politics <span>(316)</span></a>
+										</li>
+										<li>
+											<a href="#">Opinion <span>(12)</span></a>
+										</li>
+										<li>
+											<a href="#">US <span>(8)</span></a>
+										</li>
+										<li>
+											<a href="#">Travel <span>(12)</span></a>
+										</li>
+										<li>
+											<a href="#">Money <span>(136)</span></a>
+										</li>
+										<li>
+											<a href="#">Tech <span>(4)</span></a>
+										</li>
+										<li>
+											<a href="#">Elections <span>(48)</span></a>
+										</li>
+										<li>
+											<a href="#">Video <span>(186)</span></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="comment-last-section">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12 col-sm-8">
+								<div class="last-comment-block">
+									<div class="comment-wrapper clearfix">
+										<h2>Comments <span>(8)</span></h2>
+										<a href="#" class="subscribe"><span>Subscribe</span> <i class="fa fa-envelope"></i></a>
+									</div>
+									<div class="comment-one clearfix">
+										<figure>
+											<img src="assets/images/bloggwer-img-two.png" alt="#">
+											<span class="comment-overlay"><i class="fa fa-user"></i> </span>
+										</figure>
+										<div class="comment-client">
+											<h3>Harry Lison</h3>
+											<p>
+												Fusce a quam. Etiam ut purus mattis mauris sodales aliquam. Curabitur nisi. Quisque malesuada placerat nisl. Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel, lacus. Sed augue ipsum, egestas nec, vestibulum et, malesuada adipiscing.
+											</p>
+											<span class="comment-time-block clearfix"><span class="comment-time"><a href="#">August 3, 2015</a></span><span class="comment-text clearfix"><a href="#">Reply <i class="fa fa-commenting"></i></a><a href="#">Edit <i class="fa fa-pencil"></i></a></span> </span>
+										</div>
+									</div>
+									<div class="comment-one clearfix">
+										<figure>
+											<img src="assets/images/bloggwer-img-two.png" alt="#">
+											<span class="comment-overlay"><i class="fa fa-user"></i> </span>
+										</figure>
+										<div class="comment-client">
+											<h3>Harry Lison <span><i class="fa fa-bullseye"></i> Admin</span></h3>
+											<p>
+												Fusce a quam. Etiam ut purus mattis mauris sodales aliquam. Curabitur nisi. Quisque malesuada placerat nisl. Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel, lacus. Sed augue ipsum, egestas nec, vestibulum et, malesuada adipiscing.
+											</p>
+											<span class="comment-time-block clearfix"><span class="comment-time"><a href="#">August 3, 2015</a></span><span class="comment-text"><a href="#">Reply <i class="fa fa-commenting"></i></a><a href="#">Edit <i class="fa fa-pencil"></i></a></span> </span>
+										</div>
+									</div>
+									<div class="comment-one clearfix">
+										<figure>
+											<img src="assets/images/bloggwer-img-two.png" alt="#">
+											<span class="comment-overlay"><i class="fa fa-user"></i> </span>
+										</figure>
+										<div class="comment-client">
+											<h3>Harry Lison</h3>
+											<p>
+												Fusce a quam. Etiam ut purus mattis mauris sodales aliquam. Curabitur nisi. Quisque malesuada placerat nisl. Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel, lacus. Sed augue ipsum, egestas nec, vestibulum et, malesuada adipiscing.
+											</p>
+											<span class="comment-time-block clearfix"><span class="comment-time"><a href="#">August 3, 2015</a></span><span class="comment-text"><a href="#">Reply <i class="fa fa-commenting"></i></a><a href="#">Edit <i class="fa fa-pencil"></i></a></span> </span>
+										</div>
+									</div>
+									<div class="comment-one clearfix">
+										<figure>
+											<img src="assets/images/bloggwer-img-two.png" alt="#">
+											<span class="comment-overlay"><i class="fa fa-user"></i> </span>
+										</figure>
+										<div class="comment-client">
+											<h3>Harry Lison</h3>
+											<p>
+												Fusce a quam. Etiam ut purus mattis mauris sodales aliquam. Curabitur nisi. Quisque malesuada placerat nisl. Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel, lacus. Sed augue ipsum, egestas nec, vestibulum et, malesuada adipiscing.
+											</p>
+											<span class="comment-time-block clearfix"><span class="comment-time"><a href="#">August 3, 2015</a></span><span class="comment-text"><a href="#">Reply <i class="fa fa-commenting"></i></a><a href="#">Edit <i class="fa fa-pencil"></i></a></span> </span>
+										</div>
+									</div>
+								</div>
+								<div class="leave-reply-section">
+									<h2>Leave a Reply</h2>
+									<form name="replayform" novalidate="">
+										<div class="row">
+											<span class="col-sm-6 reply-field">
+												<input type="text" name="name" placeholder="Your Name" data-ng-pattern = "/^[a-zA-Z]+$/" data-ng-model = "contactdata.name" required="" data-ng-class = "{error:replayform.name.$invalid && submitsecond}" />
+												<i class="fa fa-user"></i></span>
+											<span class="col-sm-6 reply-field"> <!--<input type="email" name="mail" placeholder="Your Email" />-->
+												<input type="text"  name="email" placeholder="YOUR EMAIL" data-ng-model = "contactdata.email" data-ng-pattern = "/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/" required data-ng-class = "{'error':replayform.email.$invalid && submitsecond}" />
+												<i class="fa fa-envelope"></i></span>
+										</div>
+										<span class="reply-field"> 											<textarea placeholder="Your Message" name = "message" data-ng-pattern = "/^[0-9a-zA-Z]/"  data-ng-model = "contactdata.message" required="" data-ng-class = "{error:replayform.message.$invalid && submitsecond}"></textarea><i class="fa fa-pencil"></i></span>
+										<button type="button" data-ng-click = "userRegistersecond(replayform.$valid)">
+											<i class="fa fa-envelope"></i>Leave a reply
+										</button>
+									</form>
+									<p class="showsuccess2">
+										SuccessFull SignUp
+									</p>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-4">
+								<div class="discussion-section">
+									<h2>Last Discussion</h2>
+									<div class="discussion-block">
+										<div class="discussion-block-content clearfix">
+											<figure class="discussion-block-img">
+												<img src="assets/images/blog-img5.png" alt="#">
+											</figure>
+											<div class="header-wrapp">
+												<h3>Harry Lison</h3>
+												<p>
+													Fusce a quam. Etiam ut purus mattis mauris sodales aliquam.
+												</p>
+												<span class="profile-info-text"><a href="#">August 3, 2015</a><small><a href="#"> 6 <i class="fa fa-comments-o"></i></a></small></span>
+											</div>
+										</div>
+										<div class="discussion-block-content clearfix">
+											<figure class="discussion-block-img">
+												<img src="assets/images/blog-img5.png" alt="#">
+											</figure>
+											<div class="header-wrapp">
+												<h3>Harry Lison</h3>
+												<p>
+													Fusce a quam. Etiam ut purus mattis mauris sodales aliquam.
+												</p>
+												<span class="profile-info-text"><a href="#">August 3, 2015</a><small><a href="#"> 6 <i class="fa fa-comments-o"></i></a></small></span>
+											</div>
+										</div>
+										<div class="discussion-block-content clearfix">
+											<figure class="discussion-block-img">
+												<img src="assets/images/blog-img5.png" alt="#">
+											</figure>
+											<div class="header-wrapp">
+												<h3>Harry Lison</h3>
+												<p>
+													Fusce a quam. Etiam ut purus mattis mauris sodales aliquam.
+												</p>
+												<span class="profile-info-text"><a href="#">August 3, 2015</a><small><a href="#"> 6 <i class="fa fa-comments-o"></i></a></small></span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="related-post-section news-item">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-12 related-post-header clearfix">
+								<h2>Related Posts</h2>
+								<span class="related-post-direction clearfix"><a href="#" class="prev-icon"><i class="fa fa-chevron-left"></i> </a><a href="#" class="next-icon"><i class="fa fa-chevron-right"></i> </a></span>
+							</div>
+							<div class="related-post-block clearfix">
+								<div class="filter-item zoom">
+									<figure class="filter-img-item">
+										<a href="#"><img src="assets/images/news-img3.jpg" alt="image" /></a>
+									</figure>
+									<div class="filter-item-text">
+										<h3 class="heading">History</h3>
+										<h2>
+											<a class="sm-para" href="#"> For the Record: Poll dancing in our Bernie underwear <span>«Candidates Engage In Elaborate Poll Dance»</span> </a>
+										</h2>
+										<span class="date-one new-data-one"><a href="#">August 3, 2015</a> <small><a href="#">6 <i class="fa fa-comments-o"></i></a></small></span>
+									</div>
+								</div>
+								<div class="filter-item zoom">
+									<figure class="filter-img-item">
+										<a href="#"><img src="assets/images/news-img6.jpg" alt="image" /></a>
+									</figure>
+									<div class="filter-item-text">
+										<h3 class="heading">Opinion</h3>
+										<h2>
+											<a class="sm-para" href="#"> Kraft Heinz to shut 7 plants in U.S., Canada, lay off 2,600 <span>«IOWA CITY — Kraft Heinz will close seven plants in the U.S. and Canada»</span> </a>
+										</h2>
+										<span class="date-one new-data-one"><a href="#">August 3, 2015</a> <small><a href="#">6 <i class="fa fa-comments-o"></i></a></small></span>
+									</div>
+								</div>
+								<div class="filter-item zoom">
+									<figure class="filter-img-item">
+										<a href="#"><img src="assets/images/news-feed-two.jpg" alt="image" /></a>
+									</figure>
+									<div class="filter-item-text">
+										<h3 class="heading">Life</h3>
+										<h2>
+											<a class="sm-para" href="#"> Recall costs dent U.S. arm of Fiat Chrysler. <span>«The sharp earnings decline is in line with the losses that FCA US's parent company»</span> </a>
+										</h2>
+										<span class="date-one new-data-one"><a href="#">August 3, 2015</a> <small><a href="#">6 <i class="fa fa-comments-o"></i></a></small></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+				<!-- Stay Updated Starts Here -->
+				<section class="stay-updated">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="stay-updated-text">
+									<h2>Stay Updated</h2>
+									<span>Sign up for our newsletter to receive the latest news and event postings.</span>
+									<form name = "update" novalidate="">
+										<!--<input type="text" id="email" placeholder="YOUR EMAIL ADDRESS" />-->
+										<input type="text"  name="email" placeholder="YOUR EMAIL ADDRESS" data-ng-model = "signupFormData.email" data-ng-pattern = "/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/" required data-ng-class = "{'error':update.email.$invalid && submitthird}" />
+										<input type="submit" value="sign up" data-ng-click = "userRegisterthird(update.$valid)"/>
+									</form>
+								</div>
+								<p class="showsuccess3">
+									SuccessFull SignUp
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="inner-blog-section">
+					<div class="container-fluid">
+						<div class="row no-gutter">
+							<div class="inner-blog-slides">
+								<div class="inner-blog-item">
+									<div class="people">
+										<img src="assets/images/blog-img6.jpg" alt="image" />
+										<div class="people-text">
+											<div class="people-wrap">
+												<div class="people-text-wrap">
+													<h3 class="heading-center">money</h3>
+													<h2><a href="#">Stocks fall slightly ahead of Friday's jobs report</a></h2>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="inner-blog-item">
+									<div class="people">
+										<img src="assets/images/blog-img7.jpg" alt="image" />
+										<div class="people-text">
+											<div class="people-wrap">
+												<div class="people-text-wrap">
+													<h3 class="heading-center">Politics</h3>
+													<h2><a href="#">Will Hillary Clinton watch Donald Trump on 'SNL'?</a></h2>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="inner-blog-item">
+									<div class="people">
+										<img src="assets/images/blog-img6.jpg" alt="image" />
+										<div class="people-text">
+											<div class="people-wrap">
+												<div class="people-text-wrap">
+													<h3 class="heading-center">money</h3>
+													<h2><a href="#">Stocks fall slightly ahead of Friday's jobs report</a></h2>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="inner-blog-item">
+									<div class="people">
+										<img src="assets/images/blog-img7.jpg" alt="image" />
+										<div class="people-text">
+											<div class="people-wrap">
+												<div class="people-text-wrap">
+													<h3 class="heading-center">Politics</h3>
+													<h2><a href="#">Will Hillary Clinton watch Donald Trump on 'SNL'?</a></h2>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="inner-blog-item">
+									<div class="people">
+										<img src="assets/images/blog-img6.jpg" alt="image" />
+										<div class="people-text">
+											<div class="people-wrap">
+												<div class="people-text-wrap">
+													<h3 class="heading-center">money</h3>
+													<h2><a href="#">Stocks fall slightly ahead of Friday's jobs report</a></h2>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="inner-blog-item">
+									<div class="people">
+										<img src="assets/images/blog-img7.jpg" alt="image" />
+										<div class="people-text">
+											<div class="people-wrap">
+												<div class="people-text-wrap">
+													<h3 class="heading-center">Politics</h3>
+													<h2><a href="#">Will Hillary Clinton watch Donald Trump on 'SNL'?</a></h2>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Stay Updated Ends Here -->
+			</div>
+		
+			<!--Section ends Here -->
+			<!-- Footer Starts Here -->
+			<footer>
+				<!--Section box starts Here -->
+				<div class="footer">
+					<div class="chronical-instagram">
+						<div class="chronical-instagram-head">
+							<h3>Chronicle Instagram</h3>
+							<span class="our-instagram"> <a href="#">view our instagram</a> </span>
+						</div>
+						<div class="instagram-images">
+							<ul class="clearfix">
+								<li>
+									<div class="people">
+										<img src="assets/images/instagram-img1.jpg" alt="" />
+										<div class="people-text">
+											<div class="people-wrap">
+												<div class="people-text-wrap">
+													<a href="#" class="likes">41.6k <i class="fa fa-heart-o"></i></a>
+													<a href="#" class="comments">332 <i class="fa fa-comments-o"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="people">
+										<img src="assets/images/instagram-img2.jpg" alt="" />
+										<div class="people-text">
+											<div class="people-wrap">
+												<div class="people-text-wrap">
+													<a href="#" class="likes">41.6k <i class="fa fa-heart-o"></i></a>
+													<a href="#" class="comments">332 <i class="fa fa-comments-o"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="people">
+										<img src="assets/images/instagram-img3.jpg" alt="" />
+										<div class="people-text">
+											<div class="people-wrap">
+												<div class="people-text-wrap">
+													<a href="#" class="likes">41.6k <i class="fa fa-heart-o"></i></a>
+													<a href="#" class="comments">332 <i class="fa fa-comments-o"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="people">
+										<img src="assets/images/instagram-img4.jpg" alt="" />
+										<div class="people-text">
+											<div class="people-wrap">
+												<div class="people-text-wrap">
+													<a href="#" class="likes">41.6k <i class="fa fa-heart-o"></i></a>
+													<a href="#" class="comments">332 <i class="fa fa-comments-o"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="people">
+										<img src="assets/images/instagram-img5.jpg" alt="" />
+										<div class="people-text">
+											<div class="people-wrap">
+												<div class="people-text-wrap">
+													<a href="#" class="likes">41.6k <i class="fa fa-heart-o"></i></a>
+													<a href="#" class="comments">332 <i class="fa fa-comments-o"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="people">
+										<img src="assets/images/instagram-img6.jpg" alt="" />
+										<div class="people-text">
+											<div class="people-wrap">
+												<div class="people-text-wrap">
+													<a href="#" class="likes">41.6k <i class="fa fa-heart-o"></i></a>
+													<a href="#" class="comments">332 <i class="fa fa-comments-o"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="important-links">
+							<div class="container">
+								<div class="row">
+									<div class="col-xs-12 col-sm-4">
+										<div class="about-chronical">
+											<div class="footer-logo">
+												<a href="index.html"><img src="assets/images/logo-footer.png" alt="" /></a>
+											</div>
+											<p>
+												All materials must be used with the permission of the right holder and link of the resource.
+											</p>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-2">
+										<div class="information important-links-list">
+											<h4>information</h4>
+											<ul>
+												<li>
+													<a href="#">about us</a>
+												</li>
+												<li>
+													<a href="#">editorial policy</a>
+												</li>
+												<li>
+													<a href="#">Press Releases</a>
+												</li>
+												<li>
+													<a href="#">Advertise</a>
+												</li>
+												<li>
+													<a href="#">Internships</a>
+												</li>
+												<li>
+													<a href="#">Correspondents</a>
+												</li>
+												<li>
+													<a href="#">Chronicle Terms</a>
+												</li>
+												<li>
+													<a href="#">Ad Choices</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-2">
+										<div class="partners important-links-list">
+											<h4>partners</h4>
+											<ul>
+												<li>
+													<a href="#">NewRoad</a>
+												</li>
+												<li>
+													<a href="#">Owl</a>
+												</li>
+												<li>
+													<a href="#">AGE News</a>
+												</li>
+												<li>
+													<a href="#">Liberty</a>
+												</li>
+												<li>
+													<a href="#">Hey Dude</a>
+												</li>
+												<li>
+													<a href="#">Taurus</a>
+												</li>
+												<li>
+													<a href="#">Bird</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-2">
+										<div class="categories important-links-list">
+											<h4>categories</h4>
+											<ul>
+												<li>
+													<a href="#">News</a>
+												</li>
+												<li>
+													<a href="#">Politics</a>
+												</li>
+												<li>
+													<a href="#">Money</a>
+												</li>
+												<li>
+													<a href="#">History</a>
+												</li>
+												<li>
+													<a href="#">Culture</a>
+												</li>
+												<li>
+													<a href="#">Tech</a>
+												</li>
+												<li>
+													<a href="#">Life</a>
+												</li>
+												<li>
+													<a href="#">Opinion</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-2">
+										<div class="stay-with important-links-list">
+											<h4>stay with us</h4>
+											<ul>
+												<li>
+													<a href="#">Contact Us</a>
+												</li>
+												<li>
+													<a href="#">Get Home Delivery</a>
+												</li>
+												<li>
+													<a href="#">My Subscriptions</a>
+												</li>
+												<li>
+													<a href="#">Newsletters &amp; Alerts</a>
+												</li>
+												<li>
+													<a href="#">Get the e-Newsletter</a>
+												</li>
+												<li>
+													<a href="#">Our Shop</a>
+												</li>
+												<li>
+													<a href="#">Permissions</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="footer-sticker">
+							<div class="container">
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="sticker">
+											<div class="sticker-content">
+												<img alt="" src="assets/images/sticker-2.jpg">
+												<div class="sticker-text">
+													<small class="big-num">970</small>
+													<img alt="" src="assets/images/logo-medium.png">
+													<small class="small-num">90</small>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="company-links">
+							<div class="container">
+								<div class="row">
+									<ul class="clearfix">
+										<li>
+											<a href="#"><img src="assets/images/worker.png" alt="" /></a>
+										</li>
+										<li>
+											<a href="#"><img src="assets/images/ntimes.png" alt="" /></a>
+										</li>
+										<li>
+											<a href="#"><img src="assets/images/villa.png" alt="" /></a>
+										</li>
+										<li>
+											<a href="#"><img src="assets/images/usn.png" alt="" /></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Section box ends Here -->
+			</footer>
+			<!-- Footer Ends Here -->
+		</div>
+		<!--banner ends Here -->
+		<!--Wrapper Ends Here -->
+		<script type="text/javascript" src="assets/js/jquery-1.12.2.min.js"></script>
+		<script src="assets/js/less.js"></script>
+		<script type="text/javascript" src="assets/js/angular-1.4.7.min.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.countdown.js"></script>
+		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js"></script>
+		<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+		<script type="text/javascript" src="assets/js/less.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.selectbox-0.2.min.js"></script>
+		<script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
+		<script type="text/javascript" src="assets/js/owl.carousel.js"></script>
+		<script type="text/javascript" src="assets/js/angular.js"></script>
+		<script type="text/javascript" src="assets/js/site.js"></script>
+		
+	</body>
+</html>

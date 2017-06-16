@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html data-ng-app = "cronical">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>Chronicle</title>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+		<!-- Google Font -->
+		<link href='https://fonts.googleapis.com/css?family=Domine:400,700%7CMontserrat:300,400,700' rel='stylesheet' type='text/css'>
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="assets/css/bootstrap.css" />
+		<link rel="stylesheet" href="assets/css/owl.carousel.css" />
+		<link rel="stylesheet" href="assets/css/global.css" />
+		<!-- RS5.0 Main Stylesheet -->
+		<link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
+		<!-- RS5.0 Layers and Navigation Styles -->
+		<link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
+		<link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="stylesheet" href="assets/css/responsive.css" />
+		<link rel="stylesheet/less" href="assets/css/skin.less">
+	</head>
+	<body class="coming-soon" data-ng-controller = "cronicalCnt">
+		<div id="loading">
+			<div id="loading-center">
+				<div id="loading-center-absolute">
+					<div class="object" id="object_four"></div>
+					<div class="object" id="object_three"></div>
+					<div class="object" id="object_two"></div>
+					<div class="object" id="object_one"></div>
+
+				</div>
+			</div>
+
+		</div>
+		<!--Wrapper Start Here -->
+		<div class="wrapper">
+			<!--header Start Here -->
+			<header id="header" class="header">
+				<!-- primary header Start Here -->
+				<div class="primary-header clearfix">
+					<ul class="links pages-link">
+						<li>
+							<a href="index.html" class="home"><i class="fa fa-home"></i><span class="backpage-link">Back to the Future</span></a>
+						</li>
+					</ul>
+					<ul class="links social">
+						<li>
+							<a href="#"><i class="fa fa-facebook"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-instagram"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-google-plus"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-rss"></i></a>
+						</li>
+					</ul>
+				</div>
+				<!-- primary header Ends Here -->
+			</header>
+			<!--header Ends Here -->
+			<!--Section starts Here -->
+			<div id="content">
+				<div class="coming-soon-page">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="coming-soon-content">
+									<a href="index.html" class="coming-soon-logo"><img src="assets/images/coming-soon-img1.png" alt="image" /></a>
+									<p>
+										Recall costs dent U.S. arm of Fiat Chrysler. <span>«The sharp earnings decline is in line with the losses that FCA US's parent company»</span>
+									</p>
+								</div>
+								<div class="timer-block" id="countdown">
+									<span class="day-left timer-block-content"> <strong> 184 </strong> <span> Day </span> </span><span class="timer-forma"> : </span>
+									<span class="hours-left timer-block-content"> <strong> 16 </strong> <span> Hrs </span> </span><span class="timer-forma"> : </span>
+									<span class="minute-left timer-block-content"> <strong> 54 </strong> <span> Min </span> </span><span class="timer-forma"> : </span>
+									<span class="second-left timer-block-content"> <strong> 36 </strong> <span> Sec </span> </span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Section End Here -->
+			<!--footer start Here -->
+			<footer>
+				<div class="stay-updated-text stay-updated-block">
+					<h2>Stay Updated</h2>
+					<span>Sign up for our newsletter to receive the latest news and event postings.</span>
+					<form name="update" novalidate="">
+						<!--<input type="text" id="email" placeholder="YOUR EMAIL ADDRESS" />-->
+						<input type="text" id="email" name="email" placeholder="YOUR EMAIL ADDRESS" data-ng-model = "contactdata.email" data-ng-pattern = "/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/" required data-ng-class = "{'error':update.email.$invalid && submit}" />
+						<input type="submit" value="sign up" data-ng-click = "userRegister(update.$valid)" />
+					</form>
+					<p class="showsuccess">
+						SuccessFull SignUp
+					</p>
+				</div>
+			</footer>
+		<!--footer End Here -->
+		</div>
+		<!--banner ends Here -->
+		<!--Wrapper Ends Here -->
+		<script type="text/javascript" src="assets/js/jquery-1.12.2.min.js"></script>
+		<script src="assets/js/less.js"></script>
+		<script type="text/javascript" src="assets/js/angular-1.4.7.min.js"></script>
+		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js"></script>
+		<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+		<script type="text/javascript" src="assets/js/less.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.plugin.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.selectbox-0.2.min.js"></script>
+		<script type="text/javascript" src="assets/js/owl.carousel.js"></script>
+		<script type="text/javascript" src="assets/js/angular.js"></script>
+		<script type="text/javascript" src="assets/js/site.js"></script>
+		
+	</body>
+</html>
