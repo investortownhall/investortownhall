@@ -1,35 +1,36 @@
 {
-  "name": "investortownhall.com",
-  "version": "1.0.0",
-  "description": "Company website",
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "main": "gulp.js",
-//   "scripts": {
-//     "start": "node index.config.js"
-  },
-  "dependencies": {
-    "angular": "^1.6.4",
-    "ejs": "2.5.6",
-    "express": "4.15.2",
-    "gulp": "^3.9.1",
-    "gulp-connect": "^5.0.0",
-    "gulp-inject": "^4.2.0",
-    "gulp-livereload": "^3.8.1",
-    "gulp-open": "^2.0.0",
-    "gulp-util": "^3.0.8",
-    "wiredep": "^4.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/investortownhall/investortownhall"
-  },
-  "keywords": [
-    "node",
-    "gulp",
-    "heroku",
-    "express"
-  ],
-  "license": "UNLICENSED"
+    "name": "investortownhall.com",
+    "version": "1.0.0",
+    "description": "Company website",
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "main": "gulp.js",
+    "scripts": {
+        "test": ""
+    },
+    "dependencies": {
+        "angular": "^1.6.4",
+        "ejs": "2.5.6",
+        "express": "4.15.2",
+        "gulp": "^3.9.1",
+        "gulp-connect": "^5.0.0",
+        "gulp-inject": "^4.2.0",
+        "gulp-livereload": "^3.8.1",
+        "gulp-open": "^2.0.0",
+        "gulp-util": "^3.0.8",
+        "wiredep": "^4.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/investortownhall/investortownhall"
+    },
+    "keywords": [
+        "node",
+        "gulp",
+        "heroku",
+        "express"
+    ],
+    "author": "Lenny Castaneda",
+    "license": "UNLICENSED"
 }
