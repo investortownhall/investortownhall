@@ -25,7 +25,7 @@ gulp.task('watch', function() {
 //These are the sources and their paths.
 //Any of the .js files in any of the folders in src/js
 //Any of the .css file sin any of the folders in src/css
-var paths = ['./node_modules/', './src/bower_components', './src/app/**/*.js', './src/css/**/*.css', './src/values/**/*.js'];
+var paths = ['./node_modules/', './bower_components', './src/app/**/*.js', './src/css/**/*.css', './src/values/**/*.js'];
 
 
 gulp.task('inject', function() {
@@ -73,7 +73,7 @@ gulp.task('app', function() {
         //This is the URL to open.
         uri: 'http://localhost:8080',
         //This is the app on my computer to use
-        app: 'Google Chrome' //FireFox; Internet Explorer - MAC
+        app: 'Chrome' //FireFox; Internet Explorer - MAC
             // app: 'Chrome' //  WINDOWS
     };
     //Open up this file

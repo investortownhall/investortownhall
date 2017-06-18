@@ -1,11 +1,11 @@
 {
     "name": "investor-town-hall",
     "authors": [
-        "Lenny Castaneda"
+        "Lenny Castaneda <lenny.castaneda@gmail.com>"
     ],
     "description": "website",
     "main": "./src/index.html",
-    "license": "Copyrights by Investor Town Hall, LLC",
+    "license": "UNLICENSED",
     "homepage": "https://github.com/investorotownhall/investortownhall",
     "ignore": [
         "**/.*",
