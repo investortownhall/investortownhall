@@ -8,10 +8,10 @@ var gulp = require('gulp'),
     open = require('gulp-open');
 
 var jsSources = ['src/app/**/*.js'],
-    //Any changes to any css files, in any folder in src/css folder
+    //Any changes to any css files, in any folder in src/assets/css folder
     cssSources = ['src/assets/css/**/*.css'],
     //Any Changes to any html file
-    htmlSources = ['./src/index.html', './src/app/**/*.html'];
+    htmlSources = ['src/index.html', 'src/**/*.html'];
 
 
 //Watch for any changes in the files.
@@ -25,7 +25,7 @@ gulp.task('watch', function() {
 //These are the sources and their paths.
 //Any of the .js files in any of the folders in src/js
 //Any of the .css file sin any of the folders in src/css
-var paths = ['./node_modules/', './bower_components', './src/app/**/*.js', './src/css/**/*.css', './src/values/**/*.js'];
+var paths = ['./bower_components/', './src/app/**/*.js', './src/css/**/*.css'];
 
 
 gulp.task('inject', function() {
@@ -73,7 +73,7 @@ gulp.task('app', function() {
         //This is the URL to open.
         uri: 'http://localhost:8080',
         //This is the app on my computer to use
-        app: 'Chrome' //FireFox; Internet Explorer - MAC
+        app: 'chrome' //FireFox; Internet Explorer - MAC
             // app: 'Chrome' //  WINDOWS
     };
     //Open up this file
