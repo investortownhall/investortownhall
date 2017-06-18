@@ -452,7 +452,7 @@ a:hover {
 }
 
 a {
-    font-size: 14px;
+    font-size: 18px;
     color: #fff;
 }
 
@@ -761,8 +761,8 @@ tbody td {
 .nav li a {
     letter-spacing: 0.8px;
     color: #fff;
-    width: 190px;
-    padding: 5px 0;
+    width: 200px;
+    padding: 10px 0;
 }
 
 .nav>li>a:hover {
