@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html data-ng-app="cronical">
+<html lang="en" data-ng-app="iTownHall">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta text="Stock Market News,OTC Markets, NYSE, NASDAQ, Equity Crowdfunding" />
+    <meta text="Stock Market News, Video Webcasts covering OTC Markets, NYSE, NASDAQ, Equity Crowdfunding Companies" />
     <title>Investor Town Hall</title>
 
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
@@ -13,7 +13,7 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="assets/css/owl.carousel.css" />
     <link rel="stylesheet" href="assets/css/global.css" />
     <!-- RS5.0 Main Stylesheet -->
@@ -26,18 +26,17 @@
     <link rel="stylesheet/less" href="assets/css/skin.less">
 </head>
 
-<body data-ng-controller="cronicalCtl">
+<body data-ng-controller="MainController">
     <!--Loading Spinner-->
     <div id="loading">
-        <div id="loading-center">
+        <!--<div id="loading-center">
             <div id="loading-center-absolute">
                 <div class="object" id="object_four"></div>
                 <div class="object" id="object_three"></div>
                 <div class="object" id="object_two"></div>
                 <div class="object" id="object_one"></div </div>
             </div>
-
-        </div>
+        </div>-->
         <!--Wrapper Start Here -->
         <div class="homepage-two" id="wrapper">
             <!--header Start Here -->
@@ -676,7 +675,7 @@
                 <div class="footer-type-last">
                     <div class="container">
                         <div class="row">
-                            <div class="col-sm-12 col-md-4 col-xs-12 footer-three-info">
+                            <div class="col-sm-4 col-md-4 col-xs-12 footer-three-info text-center">
                                 <h5>Contact Us</h5>
                                 <ul>
                                     <li>
@@ -690,7 +689,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-sm-6  col-md-4 col-xs-12 footer-three-info text-center">
+                            <div class="col-sm-4  col-md-4 col-xs-12 footer-three-info text-center">
                                 <h5>Information</h5>
                                 <ul>
                                     <li>
@@ -707,7 +706,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-sm-6 col-md-4 col-xs-12 footer-three-info text-right">
+                            <div class="col-sm-4 col-md-4 col-xs-12 footer-three-info text-center">
                                 <h5>Partners</h5>
                                 <ul>
                                     <li>
@@ -752,7 +751,7 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="footer-boottom-part clearfix">
-                                <div class="footer-social-icon">
+                                <!--<div class="footer-social-icon col-xs-12">
                                     <ul class="clearfix">
                                         <li>
                                             <a href=""><i class="fa fa-facebook"></i></a>
@@ -767,13 +766,13 @@
                                             <a href=""><i class="fa fa-google-plus"></i></a>
                                         </li>
                                     </ul>
-                                </div>
-                                <div class="all-right">
-                                    <span>&copy; All Rights Reserved by <a href="#">Investor Town Hall, LLC</a></span>
-                                </div>
+                                </div>-->
                                 <div class="go-top">
                                     <span>Go Top</span>
                                     <a href="#wrapper"><i class="fa fa-chevron-circle-up"></i></a>
+                                </div>
+                                <div class="all-right">
+                                    <span>&copy; All Rights Reserved by <a href="#">Investor Town Hall, LLC</a></span>
                                 </div>
                             </div>
                         </div>
@@ -786,13 +785,14 @@
     </div>
     <!--Wrapper Ends Here -->
 
-    <script type="text/javascript" src="assets/js/jquery-1.12.2.min.js"></script>
-    <script src="assets/js/less.js"></script>
-    <script type="text/javascript" src="assets/js/angular-1.4.7.min.js"></script>
+    <script type="text/javascript" src="bower_components/jquery/jquery.min.js"></script>
+    <!--<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>-->
     <script type="text/javascript" src="assets/js/jquery.countdown.js"></script>
-    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
-    <script type="text/javascript" src="assets/js/angular.js"></script>
+    <!--<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js"></script>-->
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+
+    <script type="text/javascript" src="app/index.module.js"></script>
     <script type="text/javascript" src="assets/js/less.js"></script>
     <script type="text/javascript" src="assets/js/jquery.appear.js"></script>
     <script type="text/javascript" src="assets/js/jquery.countTo.js"></script>
