@@ -11,7 +11,7 @@ var jsSources = ['src/**/*.js'],
     //Any changes to any css files, in any folder in src/assets/css folder
     cssSources = ['src/**/*.css'],
     //Any Changes to any html file
-    lessSource = ['src/**/*.less'],
+    lessSources = ['src/**/*.less'],
     htmlSources = ['src/index.html', 'src/**/*.html'];
 
 
@@ -21,6 +21,7 @@ var jsSources = ['src/**/*.js'],
 gulp.task('watch', function() {
     gulp.watch(jsSources, ['js']);
     gulp.watch(cssSources, ['css']);
+    gulp.watch(lessSources, ['less']);
     gulp.watch(htmlSources, ['html']);
 });
 
