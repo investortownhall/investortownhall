@@ -11,7 +11,9 @@ var jsSources = ['src/**/*.js'],
     //Any changes to any css files, in any folder in src/assets/css folder
     cssSources = ['src/**/*.css'],
     //Any Changes to any html file
+    lessSource = ['src/**/*.less'],
     htmlSources = ['src/index.html', 'src/**/*.html'];
+
 
 
 //Watch for any changes in the files.
