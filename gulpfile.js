@@ -28,7 +28,7 @@ gulp.task('watch', function() {
 //These are the sources and their paths.
 //Any of the .js files in any of the folders in src/js
 //Any of the .css files in any of the folders in src/css
-var paths = ['./src/bower_components/', 'node_modules', './src/app/**/*.js', './src/assets/**/*.css', './src/assets/**/*.js'];
+var paths = ['./src/bower_components/', 'node_modules', './src/app/**/*.js', './src/assets/**/*.css', './src/assets/**/*.less', './src/assets/**/*.js'];
 
 
 gulp.task('inject', function() {
