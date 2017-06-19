@@ -27,8 +27,8 @@ gulp.task('watch', function() {
 
 //These are the sources and their paths.
 //Any of the .js files in any of the folders in src/js
-//Any of the .css file sin any of the folders in src/css
-var paths = ['bower_components/', 'node_modules', './src/app/**/*.js', './src/css/**/*.css'];
+//Any of the .css files in any of the folders in src/css
+var paths = ['./src/bower_components/', 'node_modules', './src/app/**/*.js', './src/assets/**/*.css', './src/assets/**/*.js'];
 
 
 gulp.task('inject', function() {
@@ -60,6 +60,13 @@ gulp.task('css', function() {
     gulp.src(cssSources)
         .pipe(connect.reload());
 });
+
+//Tells connect to reload the server when less files change.
+gulp.task('less', function() {
+    gulp.src(cssSources)
+        .pipe(connect.reload());
+});
+
 
 gulp.task('connect', function() {
     connect.server({
