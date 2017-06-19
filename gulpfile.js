@@ -9,7 +9,7 @@ var gulp = require('gulp'),
 
 var jsSources = ['src/**/*.js'],
     //Any changes to any css files, in any folder in src/assets/css folder
-    cssSources = ['src/assets/css/**/*.css'],
+    cssSources = ['src/**/*.css'],
     //Any Changes to any html file
     htmlSources = ['src/index.html', 'src/**/*.html'];
 
