@@ -1,5 +1,4 @@
 node_modules/
-bower_components/
 src/ignore/
 src/app/core/values/keys.js
 src/app/index.config.js
