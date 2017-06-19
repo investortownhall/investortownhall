@@ -2,7 +2,7 @@
     "name": "investortownhall",
     "version": "0.2.6",
     "description": "### Investor Town Hall, LLC ###",
-    "main": "index.js",
+    "main": "gulp.js",
     "dependencies": {
         "angular": "^1.6.4",
         "ejs": "^2.5.6",
@@ -18,7 +18,7 @@
     },
     "devDependencies": {},
     "scripts": {
-        "start": "node index.js",
+        "start": "gulp serve",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {

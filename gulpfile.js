@@ -7,7 +7,7 @@ var gulp = require('gulp'),
     inject = require('gulp-inject'),
     open = require('gulp-open');
 
-var jsSources = ['src/app/**/*.js'],
+var jsSources = ['src/**/*.js'],
     //Any changes to any css files, in any folder in src/assets/css folder
     cssSources = ['src/assets/css/**/*.css'],
     //Any Changes to any html file
@@ -25,7 +25,7 @@ gulp.task('watch', function() {
 //These are the sources and their paths.
 //Any of the .js files in any of the folders in src/js
 //Any of the .css file sin any of the folders in src/css
-var paths = ['./bower_components/', './src/app/**/*.js', './src/css/**/*.css'];
+var paths = ['bower_components/', 'node_modules', './src/app/**/*.js', './src/css/**/*.css'];
 
 
 gulp.task('inject', function() {
