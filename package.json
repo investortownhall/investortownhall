@@ -5,8 +5,6 @@
     "main": "gulp.js",
     "dependencies": {
         "angular": "^1.6.4",
-        "ejs": "^2.5.6",
-        "express": "^4.15.2",
         "gulp": "^3.9.1",
         "gulp-connect": "^5.0.0",
         "gulp-inject": "^4.2.0",
