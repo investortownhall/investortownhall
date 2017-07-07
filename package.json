@@ -12,7 +12,8 @@
         "gulp-open": "^2.0.0",
         "gulp-util": "^3.0.8",
         "less": "^2.7.2",
-        "wiredep": "^4.0.0"
+        "wiredep": "^4.0.0",
+        "lodash": "4.17.4"
     },
     "devDependencies": {},
     "scripts": {
