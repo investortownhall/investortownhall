@@ -479,7 +479,7 @@
  2.) Media Query for Tablet
  ===============================*/
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1180px) {
     .sticker-content>img {
         display: block;
     }
@@ -528,7 +528,7 @@
         right: 20px;
     }
     .homepage-two .vedio-sec .video-wrap {
-        margin-top: -106px;
+        margin-top: -506px;
     }
     .cart-icon {
         right: 3%;
@@ -1475,7 +1475,11 @@
  3.) Media Query for mobile
  ===============================*/
 
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 700px) {
+    margin-top: -109px;
+}
+
+@media only screen and (max-width: 1030px) {
     .h2 {
         font-size: 30px;
     }
@@ -1539,7 +1543,7 @@
         width: 120px;
     }
     .logo {
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
     }
     .owl-page {
@@ -2158,7 +2162,7 @@
         position: static;
     }
     .homepage-two .vedio-sec .video-wrap {
-        margin-top: -22px;
+        margin-top: -109px;
     }
     .cell {
         height: 87px;
@@ -2584,7 +2588,7 @@
     }
     .news-blog-wrap,
     .homepage-two .banner {
-        margin-top: 0;
+        margin-top: -130px;
     }
     .homepage-four .share {
         width: 100%;
@@ -3520,7 +3524,16 @@
     }
 }
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 280px) and (max-width: 413px) {
+    h1 {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 767px) {
+    h1 {
+        font-size: 48px;
+    }
     .cell {
         margin-top: 84px;
     }

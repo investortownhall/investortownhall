@@ -874,8 +874,8 @@
 }
 
 .homepage-two .vedio-sec .video-wrap {
-    margin-top: -300px;
-    border: 18px solid #fff;
+    margin-top: -600px;
+    border: 30px solid #fff;
 }
 
 .homepage-two .thumbnails {
@@ -1913,7 +1913,7 @@
 }
 
 .homepage-two .banner {
-    padding-bottom: 0px;
+    padding-bottom: 33px;
     margin-top: -40px;
 }
 
@@ -9485,7 +9485,7 @@ fill {
 /*======Loader Styling ========*/
 
 #loading {
-    background-color: #3c3c3c;
+    background-color: #fff;
     height: 100%;
     width: 100%;
     position: inherit;

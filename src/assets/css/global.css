@@ -722,7 +722,7 @@ tbody td {
 }
 
 .main-header {
-    padding: 22px 0 33px;
+    padding: 5px 0 33px;
     text-align: center;
     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.66) 10%, rgba(0, 0, 0, 0.36) 56%, rgba(0, 0, 0, 0.2) 90%, rgba(0, 0, 0, 0.04) 97%, rgba(0, 0, 0, 0) 100%);
     /* FF3.6-15 */
