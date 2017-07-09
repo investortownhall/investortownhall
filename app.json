@@ -1,8 +1,0 @@
-{
-    "name": "Investor Town Hall",
-    "description": "Company Website",
-    "repository": "https://github.com/investortownhall/investortownhal",
-    "logo": "https://cdn.rawgit.com/investortownhall/investortownhall/master/src/favicon.ico",
-    "keywords": ["node", "express", "heroku"],
-    "image": "heroku/nodejs"
-}
